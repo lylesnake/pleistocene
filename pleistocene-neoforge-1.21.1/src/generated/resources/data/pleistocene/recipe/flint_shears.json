@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    " F",
+    "F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:flint_shears"
+  }
+}

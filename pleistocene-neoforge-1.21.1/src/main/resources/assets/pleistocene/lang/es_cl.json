@@ -1,0 +1,77 @@
+{
+  "creativetab.pleistocene.pleistocene_tab": "Pleistocene Mod",
+
+  "block.pleistocene.flint_block": "Pila de pedernal",
+  "block.pleistocene.pedestal": "Pedestal",
+
+  "block.pleistocene.drying_rack": "Tendedero",
+  "block.pleistocene.chopping_block": "Bloque de corte",
+  "block.pleistocene.knapping_station": "Equipo de tallado de pedernal",
+
+  "item.pleistocene.wolf_fur": "Pelaje de lobo",
+  "item.pleistocene.fox_fur": "Pelaje de zorro",
+  "item.pleistocene.snow_fox_fur": "Pelaje de zorro blanco",
+  "item.pleistocene.polar_bear_fur": "Pelaje de oso polar",
+
+  "item.pleistocene.weak_solution": "Solución débil",
+  "item.pleistocene.ash": "Ceniza",
+  "item.pleistocene.processed_fur": "Piel animal",
+  "item.pleistocene.rawhide": "Cuero crudo",
+  "item.pleistocene.amethyst_silk": "Tela de amatista",
+
+  "item.pleistocene.hide_mask": "Máscara de animal",
+  "item.pleistocene.hide_chestpiece": "Arnés de piel",
+  "item.pleistocene.hide_loincloth": "Taparrabos de piel",
+  "item.pleistocene.hide_sandals": "Sandalias de piel",
+
+  "item.pleistocene.fur_hood": "Gorro de piel",
+  "item.pleistocene.fur_tunic": "Tunica de piel",
+  "item.pleistocene.fur_leggings": "Pantalones de piel",
+  "item.pleistocene.fur_boots": "Botas de piel",
+
+  "item.pleistocene.imbued_mask": "Máscara de hueso imbuido",
+  "item.pleistocene.imbued_poncho": "Poncho de hueso imbuido",
+  "item.pleistocene.imbued_leggings": "Pantalones de hueso imbuido",
+  "item.pleistocene.imbued_boots": "Botas de hueso imbuido",
+
+  "item.pleistocene.obsidian_helmet": "Vincha de obsidiana",
+  "item.pleistocene.obsidian_chestplate": "Peto de obsidiana",
+  "item.pleistocene.obsidian_leggings": "Grebas de obsidiana",
+  "item.pleistocene.obsidian_boots": "Botas de obsidiana",
+
+  "item.pleistocene.knapped_flint": "Pedernal tallado",
+  "item.pleistocene.knapped_bone": "Hueso tallado",
+  "item.pleistocene.imbued_bone": "Hueso imbuido",
+  "item.pleistocene.obsidian_shard": "Fragmento de obsidiana",
+  "item.pleistocene.twine": "Cordel",
+  "item.pleistocene.rock": "Roca",
+
+  "item.pleistocene.hand_axe": "Hacha de mano",
+
+  "item.pleistocene.flint_axe": "Hacha de pedernal",
+  "item.pleistocene.flint_sword": "Espada de pedernal",
+  "item.pleistocene.flint_pickaxe": "Picota de pedernal",
+  "item.pleistocene.flint_shovel": "Pala de pedernal",
+  "item.pleistocene.flint_hoe": "Azadón de pedernal",
+  "item.pleistocene.flint_shears": "Tijeras de pedernal",
+
+  "item.pleistocene.bone_axe": "Hacha de hueso",
+  "item.pleistocene.bone_sword": "Espada de hueso",
+  "item.pleistocene.bone_pickaxe": "Picota de hueso",
+  "item.pleistocene.bone_shovel": "Pala de hueso",
+  "item.pleistocene.bone_hoe": "Azadón de hueso",
+
+  "item.pleistocene.imbued_axe": "Hacha de hueso imbuido",
+  "item.pleistocene.imbued_sword": "Espada de hueso imbuido",
+  "item.pleistocene.imbued_pickaxe": "Picota de hueso imbuido",
+  "item.pleistocene.imbued_shovel": "Pala de hueso imbuido",
+  "item.pleistocene.imbued_hoe": "Azadn de hueso imbuido",
+
+  "item.pleistocene.obsidian_axe": "Hacha de obsidiana",
+  "item.pleistocene.obsidian_sword": "Espada de obsidiana",
+  "item.pleistocene.obsidian_pickaxe": "Picota de obsidiana",
+  "item.pleistocene.obsidian_shovel": "Pala de obsidiana",
+  "item.pleistocene.obsidian_hoe": "Azadón de obsidiana"
+
+
+}

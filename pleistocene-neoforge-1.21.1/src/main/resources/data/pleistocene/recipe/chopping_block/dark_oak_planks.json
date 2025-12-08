@@ -1,0 +1,10 @@
+{
+  "type": "pleistocene:chopping_block",
+  "ingredient": {
+    "tag": "minecraft:dark_oak_logs"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:dark_oak_planks"
+  }
+}

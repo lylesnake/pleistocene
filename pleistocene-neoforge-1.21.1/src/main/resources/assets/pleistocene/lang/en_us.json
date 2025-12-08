@@ -1,0 +1,75 @@
+{
+  "creativetab.pleistocene.pleistocene_tab": "Pleistocene Mod",
+
+  "block.pleistocene.flint_block": "Pile of Flint",
+  "block.pleistocene.pedestal": "Pedestal",
+  "block.pleistocene.drying_rack": "Drying Rack",
+  "block.pleistocene.chopping_block": "Chopping Block",
+  "block.pleistocene.knapping_station": "Knapping Kit",
+
+  "item.pleistocene.wolf_fur": "Wolf Pelt",
+  "item.pleistocene.fox_fur": "Fox Pelt",
+  "item.pleistocene.snow_fox_fur": "Snow Fox Pelt",
+  "item.pleistocene.polar_bear_fur": "Polar Bear Pelt",
+
+  "item.pleistocene.weak_solution": "Weak Solution",
+  "item.pleistocene.ash": "Ash",
+  "item.pleistocene.processed_fur": "Fur",
+  "item.pleistocene.rawhide": "Rawhide",
+  "item.pleistocene.amethyst_silk": "Amethyst Silk",
+
+  "item.pleistocene.hide_mask": "Animal Mask",
+  "item.pleistocene.hide_chestpiece": "Rawhide Straps",
+  "item.pleistocene.hide_loincloth": "Rawhide Loincloth",
+  "item.pleistocene.hide_sandals": "Rawhide Sandals",
+
+  "item.pleistocene.fur_hood": "Fur Hood",
+  "item.pleistocene.fur_tunic": "Fur Tunic",
+  "item.pleistocene.fur_leggings": "Fur Leggings",
+  "item.pleistocene.fur_boots": "Fur Boots",
+
+  "item.pleistocene.imbued_hood": "Imbued Bone Mask",
+  "item.pleistocene.imbued_poncho": "Imbued Bone Poncho",
+  "item.pleistocene.imbued_leggings": "Imbued Bone Leggings",
+  "item.pleistocene.imbued_boots": "Imbued Bone Boots",
+
+  "item.pleistocene.obsidian_helmet": "Obsidian Headband",
+  "item.pleistocene.obsidian_chestplate": "Obsidian Chestplate",
+  "item.pleistocene.obsidian_leggings": "Obsidian Leggings",
+  "item.pleistocene.obsidian_boots": "Obsidian Boots",
+
+  "item.pleistocene.knapped_flint": "Knapped Flint",
+  "item.pleistocene.knapped_bone": "Knapped Bone",
+  "item.pleistocene.imbued_bone": "Imbued Bone",
+  "item.pleistocene.obsidian_shard": "Obsidian Shard",
+  "item.pleistocene.twine": "Twine",
+  "item.pleistocene.rock": "Rock",
+
+  "item.pleistocene.hand_axe": "Hand Axe",
+  "item.pleistocene.fire_sticks": "Fire Sticks",
+
+  "item.pleistocene.flint_axe": "Flint Axe",
+  "item.pleistocene.flint_sword": "Flint Sword",
+  "item.pleistocene.flint_pickaxe": "Flint Pickaxe",
+  "item.pleistocene.flint_shovel": "Flint Shovel",
+  "item.pleistocene.flint_hoe": "Flint Hoe",
+  "item.pleistocene.flint_shears": "Flint Shears",
+
+  "item.pleistocene.bone_axe": "Bone Axe",
+  "item.pleistocene.bone_sword": "Bone Sword",
+  "item.pleistocene.bone_pickaxe": "Bone Pickaxe",
+  "item.pleistocene.bone_shovel": "Bone Shovel",
+  "item.pleistocene.bone_hoe": "Bone Hoe",
+
+  "item.pleistocene.imbued_axe": "Imbued Bone Axe",
+  "item.pleistocene.imbued_sword": "Imbued Bone Sword",
+  "item.pleistocene.imbued_pickaxe": "Imbued Bone Pickaxe",
+  "item.pleistocene.imbued_shovel": "Imbued Bone Shovel",
+  "item.pleistocene.imbued_hoe": "Imbued Bone Hoe",
+
+  "item.pleistocene.obsidian_axe": "Obsidian Axe",
+  "item.pleistocene.obsidian_sword": "Obsidian Sword",
+  "item.pleistocene.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.pleistocene.obsidian_shovel": "Obsidian Shovel",
+  "item.pleistocene.obsidian_hoe": "Obsidian Hoe"
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_knapped_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:knapped_bone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pleistocene:bone_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_knapped_bone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pleistocene:bone_hoe"
+    ]
+  }
+}

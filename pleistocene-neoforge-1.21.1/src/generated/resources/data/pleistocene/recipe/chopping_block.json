@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:chopping_block"
+  }
+}

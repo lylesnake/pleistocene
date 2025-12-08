@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#pleistocene:needs_hand_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_wooden_tool"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "block.minecraft.bookshelf": "Tablet Shelf",
+  "block.minecraft.chiseled_bookshelf": "Chiseled Tablet Shelf",
+  "item.minecraft.book": "Tablet",
+  "item.minecraft.enchanted_book": "Enchanted Tablet",
+  "item.minecraft.writable_book": "Tablet and Stylus",
+  "item.minecraft.written_book": "Written Tablet",
+
+  "lectern.take_book": "Take Tablet",
+
+  "subtitles.chiseled_bookshelf.insert": "Tablet placed",
+  "subtitles.chiseled_bookshelf.insert_enchanted": "Enchanted Tablet placed",
+  "subtitles.chiseled_bookshelf.take": "Tablet taken",
+  "subtitles.chiseled_bookshelf.take_enchanted": "Enchanted Tablet taken",
+  "subtitles.item.book.put": "Tablet thumps"
+}

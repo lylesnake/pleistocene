@@ -1,0 +1,17 @@
+{
+  "type": "pleistocene:replace",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:horse"
+      }
+    }
+  ],
+  "ignoresilktouch": true,
+  "maxamount": 2,
+  "minamount": 1,
+  "newitem": "pleistocene:rawhide",
+  "olditem": "minecraft:leather"
+}

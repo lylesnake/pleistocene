@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "pleistocene:obsidian_shard"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "OO",
+    "OS",
+    " S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:obsidian_axe"
+  }
+}

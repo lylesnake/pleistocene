@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pleistocene:block/drying_rack", "y": 180 },
+    "facing=south": { "model": "pleistocene:block/drying_rack" },
+    "facing=east":  { "model": "pleistocene:block/drying_rack", "y": 270 },
+    "facing=west":  { "model": "pleistocene:block/drying_rack", "y": 90 }
+  }
+}

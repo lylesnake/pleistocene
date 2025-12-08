@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "pattern": [
+    "RR",
+    "RR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:rawhide"
+  }
+}

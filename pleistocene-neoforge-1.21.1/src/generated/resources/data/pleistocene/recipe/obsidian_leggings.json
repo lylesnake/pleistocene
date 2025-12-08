@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:raw_gold"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "O": {
+      "item": "pleistocene:obsidian_shard"
+    }
+  },
+  "pattern": [
+    "OGO",
+    "O O",
+    "L L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:obsidian_leggings"
+  }
+}

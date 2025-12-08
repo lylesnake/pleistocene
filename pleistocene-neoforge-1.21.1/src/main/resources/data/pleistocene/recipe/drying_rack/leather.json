@@ -1,0 +1,11 @@
+{
+  "type": "pleistocene:drying_rack",
+  "dryingtime": 2000,
+  "ingredient": {
+    "item": "pleistocene:rawhide"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather"
+  }
+}

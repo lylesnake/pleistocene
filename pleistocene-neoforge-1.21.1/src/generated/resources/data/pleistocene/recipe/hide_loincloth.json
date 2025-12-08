@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "pleistocene:rawhide"
+    }
+  },
+  "pattern": [
+    "HHH",
+    " H "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:hide_loincloth"
+  }
+}

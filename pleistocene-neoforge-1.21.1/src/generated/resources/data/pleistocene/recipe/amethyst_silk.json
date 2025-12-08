@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "ASA",
+    "SAS",
+    "ASA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:amethyst_silk"
+  }
+}

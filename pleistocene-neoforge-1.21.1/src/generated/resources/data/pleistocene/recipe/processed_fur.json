@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "pleistocene:pelts"
+    },
+    {
+      "item": "pleistocene:weak_solution"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:processed_fur"
+  }
+}

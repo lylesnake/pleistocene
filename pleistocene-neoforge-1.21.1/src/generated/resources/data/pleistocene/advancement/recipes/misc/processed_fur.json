@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pleistocene:processed_fur"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_weak_solution": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:weak_solution"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_weak_solution"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pleistocene:processed_fur"
+    ]
+  }
+}

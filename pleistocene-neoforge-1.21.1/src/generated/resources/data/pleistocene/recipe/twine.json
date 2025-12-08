@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:short_grass"
+    }
+  },
+  "pattern": [
+    "G ",
+    " G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:twine"
+  }
+}

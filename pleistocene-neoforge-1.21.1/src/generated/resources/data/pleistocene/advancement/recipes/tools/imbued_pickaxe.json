@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_imbued_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_bone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pleistocene:imbued_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_imbued_bone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pleistocene:imbued_pickaxe"
+    ]
+  }
+}

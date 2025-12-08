@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "pleistocene:twine"
+    },
+    "H": {
+      "item": "pleistocene:rawhide"
+    }
+  },
+  "pattern": [
+    "G G",
+    "H H"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:hide_sandals"
+  }
+}

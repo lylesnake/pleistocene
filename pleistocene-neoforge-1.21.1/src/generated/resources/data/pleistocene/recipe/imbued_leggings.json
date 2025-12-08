@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "pleistocene:imbued_bone"
+    },
+    "S": {
+      "item": "pleistocene:amethyst_silk"
+    }
+  },
+  "pattern": [
+    "BSB",
+    "B B",
+    "S S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:imbued_leggings"
+  }
+}

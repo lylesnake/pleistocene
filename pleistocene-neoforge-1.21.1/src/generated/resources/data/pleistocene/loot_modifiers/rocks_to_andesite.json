@@ -1,0 +1,14 @@
+{
+  "type": "pleistocene:replace",
+  "conditions": [
+    {
+      "block": "minecraft:andesite",
+      "condition": "minecraft:block_state_property"
+    }
+  ],
+  "ignoresilktouch": false,
+  "maxamount": 4,
+  "minamount": 2,
+  "newitem": "pleistocene:rock",
+  "olditem": "minecraft:andesite"
+}

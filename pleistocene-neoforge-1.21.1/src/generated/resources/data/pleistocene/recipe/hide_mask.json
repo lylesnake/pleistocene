@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "G": {
+      "item": "pleistocene:twine"
+    },
+    "H": {
+      "item": "pleistocene:rawhide"
+    }
+  },
+  "pattern": [
+    "GHG",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:hide_mask"
+  }
+}

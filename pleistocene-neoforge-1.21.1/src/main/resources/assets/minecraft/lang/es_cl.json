@@ -1,0 +1,11 @@
+{
+  "block.minecraft.bookshelf": "Estante de tablilla",
+  "block.minecraft.chiseled_bookshelf": "Estante de tablilla cincelada",
+  "item.minecraft.book": "Tablilla",
+  "item.minecraft.enchanted_book": "Tablilla encantada",
+  "item.minecraft.writable_book": "Tablilla y estilo",
+  "item.minecraft.written_book": "Tablilla escrita",
+
+  "lectern.take_book": "Toma tablilla"
+
+}

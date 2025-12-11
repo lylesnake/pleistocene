@@ -1,0 +1,20 @@
+{
+  "mammoth_ambient" : {
+    "subtitle": "sounds.pleistocene.mammoth_ambient",
+    "sounds": [
+      "pleistocene:mammoth_ambient"
+    ]
+  },
+  "mammoth_hurt" : {
+    "subtitle": "sounds.pleistocene.mammoth_hurt",
+    "sounds": [
+      "pleistocene:mammoth_hurt"
+    ]
+  },
+  "mammoth_death" : {
+    "subtitle": "sounds.pleistocene.mammoth_death",
+    "sounds": [
+      "pleistocene:mammoth_death"
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_paper": {
+    "has_rock": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:clay_ball"
+            "items": "pleistocene:rock"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:book"
+        "recipe": "minecraft:cobblestone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_clay"
+      "has_rock"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:book"
+      "minecraft:cobblestone"
     ]
   }
 }

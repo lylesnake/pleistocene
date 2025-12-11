@@ -53,9 +53,5 @@ public class PleistoceneClient {
         event.registerBlockEntityRenderer(ModBlockEntities.DRYING_RACK_BE.get(), DryingRackBlockEntityRenderer::new);
     }
 
-    public static void registerRenderers(BiConsumer<EntityType<? extends Entity>, EntityRendererProvider> entityRenderers) {
 
-        entityRenderers.accept(ModEntities.MAMMOTH.get(), MammothRenderer::new);
-
-    }
 }

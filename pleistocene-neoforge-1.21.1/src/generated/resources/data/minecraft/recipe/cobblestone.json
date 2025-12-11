@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pleistocene:rock"
+    },
+    {
+      "item": "pleistocene:rock"
+    },
+    {
+      "item": "pleistocene:rock"
+    },
+    {
+      "item": "pleistocene:rock"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cobblestone"
+  }
+}

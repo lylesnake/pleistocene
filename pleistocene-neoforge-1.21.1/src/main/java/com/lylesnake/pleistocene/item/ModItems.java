@@ -1,14 +1,21 @@
 package com.lylesnake.pleistocene.item;
 
 import com.lylesnake.pleistocene.Pleistocene;
+import com.lylesnake.pleistocene.entity.ModEntities;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Pleistocene.MODID);
+
+    // ANIMALS
+    public static final DeferredItem<Item> MAMMOTH_SPAWN_EGG = ITEMS.register("mammoth_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.MAMMOTH, 0x522F32, 0x6B4332,
+                    new Item.Properties()));
 
     // ARMOR INGREDIENTS
     public static final DeferredItem<Item> WOLF_FUR = ITEMS.register("wolf_fur",
@@ -28,6 +35,9 @@ public class ModItems {
     public static final DeferredItem<Item> RAWHIDE = ITEMS.register("rawhide",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> AMETHYST_SILK = ITEMS.register("amethyst_silk",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> MAMMOTH_FUR = ITEMS.register("mammoth_fur",
             () -> new Item(new Item.Properties()));
 
     // Tools Ingredients

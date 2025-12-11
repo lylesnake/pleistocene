@@ -6,11 +6,13 @@ import com.lylesnake.pleistocene.block.entity.choppingblock.ChoppingBlockEntity;
 import com.lylesnake.pleistocene.block.entity.dryingrack.DryingRackBlockEntity;
 import com.lylesnake.pleistocene.block.entity.renderer.PedestalBlockEntityRenderer;
 import com.lylesnake.pleistocene.entity.ModEntities;
+import com.lylesnake.pleistocene.entity.ModEntityAttributes;
 import com.lylesnake.pleistocene.item.ModCreativeModeTabs;
 import com.lylesnake.pleistocene.item.ModItems;
 import com.lylesnake.pleistocene.loot.ModLootModifiers;
 import com.lylesnake.pleistocene.recipe.ModRecipeSerializers;
 import com.lylesnake.pleistocene.recipe.ModRecipeTypes;
+import com.lylesnake.pleistocene.sound.ModSounds;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
@@ -52,6 +54,8 @@ public class Pleistocene {
 
         ModRecipeSerializers.register(modEventBus);
         ModRecipeTypes.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 

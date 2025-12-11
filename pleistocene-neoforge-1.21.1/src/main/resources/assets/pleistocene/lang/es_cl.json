@@ -12,6 +12,7 @@
   "item.pleistocene.fox_fur": "Pelaje de zorro",
   "item.pleistocene.snow_fox_fur": "Pelaje de zorro blanco",
   "item.pleistocene.polar_bear_fur": "Pelaje de oso polar",
+  "item.pleistocene.mammoth_fur": "Pelaje de mamut",
 
   "item.pleistocene.weak_solution": "Solución débil",
   "item.pleistocene.ash": "Ceniza",
@@ -71,7 +72,8 @@
   "item.pleistocene.obsidian_sword": "Espada de obsidiana",
   "item.pleistocene.obsidian_pickaxe": "Picota de obsidiana",
   "item.pleistocene.obsidian_shovel": "Pala de obsidiana",
-  "item.pleistocene.obsidian_hoe": "Azadón de obsidiana"
+  "item.pleistocene.obsidian_hoe": "Azadón de obsidiana",
 
+  "entity.pleistocene.mammoth": "Mamut"
 
 }

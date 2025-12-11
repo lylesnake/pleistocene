@@ -32,16 +32,17 @@ public class ModRecipeProvider extends RecipeProvider {
         // ------ BLOCKS ------
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.FLINT_BLOCK.get())
-                .pattern("FFF")
-                .pattern("FFF")
-                .pattern("FFF")
+                .pattern("FF")
+                .pattern("FF")
                 .define('F', Items.FLINT)
                 .unlockedBy("has_flint", has(Items.FLINT))
                 .save(recipeOutput);
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.FLINT, 9)
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.FLINT, 4)
                 .requires(ModBlocks.FLINT_BLOCK.get())
                 .unlockedBy("has_flint_block", has(ModBlocks.FLINT_BLOCK.get()))
                 .save(recipeOutput, "pleistocene:flint_from_flint_block");
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.COBBLESTONE, 1)
                 .requires(ModItems.ROCK.get())
                 .requires(ModItems.ROCK.get())
@@ -57,6 +58,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('S', Items.STICK)
                 .unlockedBy("has_stick", has(Items.STICK))
                 .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CHOPPING_BLOCK.get())
                 .pattern("L")
                 .define('L', ItemTags.LOGS)
@@ -71,17 +73,20 @@ public class ModRecipeProvider extends RecipeProvider {
                 .requires(ModItems.WEAK_SOLUTION.get())
                 .unlockedBy("has_weak_solution", has(ModItems.WEAK_SOLUTION.get()))
                 .save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WEAK_SOLUTION.get())
                 .requires(Items.WATER_BUCKET)
                 .requires(ModItems.ASH.get())
                 .unlockedBy("has_ash", has(ModItems.ASH.get()))
                 .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TWINE.get())
                 .pattern("G ")
                 .pattern(" G")
                 .unlockedBy("has_shears", has(ModItems.FLINT_SHEARS.get()))
                 .define('G', Items.SHORT_GRASS)
                 .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RAWHIDE.get())
                 .pattern("RR")
                 .pattern("RR")
@@ -94,11 +99,13 @@ public class ModRecipeProvider extends RecipeProvider {
                 .requires(ModItems.ROCK.get())
                 .unlockedBy("has_flint", has(Items.FLINT))
                 .save(recipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KNAPPED_BONE.get())
                 .requires(Items.BONE)
                 .requires(ModItems.ROCK.get())
                 .unlockedBy("has_bone", has(Items.BONE))
                 .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IMBUED_BONE.get())
                 .pattern("AAA")
                 .pattern("ABA")
@@ -107,6 +114,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('B', Items.BONE)
                 .unlockedBy("has_amethyst", has(Items.AMETHYST_SHARD))
                 .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.AMETHYST_SILK.get())
                 .pattern("ASA")
                 .pattern("SAS")
@@ -132,6 +140,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_stick", has(Items.STICK))
                 .define('S', Items.STICK)
                 .save(recipeOutput);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.HAND_AXE.get())
                 .pattern("F")
                 .unlockedBy("has_flint", has(Items.FLINT))

@@ -20,11 +20,13 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModItems.WOLF_FUR.get()))
                     .title(Component.translatable("creativetab.pleistocene.pleistocene_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
                         // ingredients
                         output.accept(ModItems.WOLF_FUR);
                         output.accept(ModItems.FOX_FUR);
                         output.accept(ModItems.SNOW_FOX_FUR);
                         output.accept(ModItems.POLAR_BEAR_FUR);
+                        output.accept(ModItems.MAMMOTH_FUR);
                         output.accept(ModItems.ASH);
                         output.accept(ModItems.PROCESSED_FUR);
                         output.accept(ModItems.WEAK_SOLUTION);
@@ -65,7 +67,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.OBSIDIAN_LEGGINGS);
                         output.accept(ModItems.OBSIDIAN_BOOTS);
 
-                        // tools
+                        // TOOLS
                         output.accept(ModItems.HAND_AXE);
                         output.accept(ModItems.FIRE_STICKS);
 
@@ -93,6 +95,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.OBSIDIAN_SHOVEL);
                         output.accept(ModItems.OBSIDIAN_SWORD);
                         output.accept(ModItems.OBSIDIAN_HOE);
+
+                        // ANIMALS
+                        output.accept(ModItems.MAMMOTH_SPAWN_EGG);
 
 
                     }).build());

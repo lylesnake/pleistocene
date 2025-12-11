@@ -14,11 +14,11 @@ public class ModToolTiers {
 
     // Stone with Gold enchantment value
     public static final Tier FLINT = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_FLINT_TOOL,
-            50, 4.0F, 1.0F, 22, () -> Ingredient.of(ModItems.KNAPPED_FLINT));
+            80, 10.0F, 1.0F, 22, () -> Ingredient.of(ModItems.KNAPPED_FLINT));
 
     // Iron
     public static final Tier BONE = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_BONE_TOOL,
-            250, 6.0F, 2.0F, 14, () -> Ingredient.of(ModItems.KNAPPED_BONE));
+            250, 3.0F, 2.0F, 14, () -> Ingredient.of(ModItems.KNAPPED_BONE));
 
     // Diamond but more enchantable
     public static final Tier IMBUED = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_IMBUED_TOOL,

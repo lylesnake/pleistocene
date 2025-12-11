@@ -18,17 +18,20 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
+
     // Tier 1 - Rawhide + grass
     public static final Holder<ArmorMaterial> HIDE_ARMOR_MATERIAL = register("hide",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
                 attribute.put(ArmorItem.Type.BOOTS, 1);
-                attribute.put(ArmorItem.Type.LEGGINGS, 2);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 2);
+                attribute.put(ArmorItem.Type.LEGGINGS, 1);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 1);
                 attribute.put(ArmorItem.Type.HELMET, 1);
-                attribute.put(ArmorItem.Type.BODY, 3);
+                attribute.put(ArmorItem.Type.BODY, 2);
             }), 12, 0, 0, SoundEvents.ARMOR_EQUIP_LEATHER,
             () -> ModItems.RAWHIDE.get());
+
     // Tier 2 - retextured vanilla leather
+
     //Tier 3 - Fur
     public static final Holder<ArmorMaterial> FUR_ARMOR_MATERIAL = register("fur",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
@@ -39,6 +42,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.BODY, 7);
             }), 10, 0.5f, 0, SoundEvents.ARMOR_EQUIP_LEATHER,
             () -> ModItems.PROCESSED_FUR.get());
+
     //Tier 4 - Imbued Bone
     public static final Holder<ArmorMaterial> IMBUED_ARMOR_MATERIAL = register("imbued",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
@@ -49,6 +53,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.BODY, 5);
             }), 20, 1, 0.1f, SoundEvents.ARMOR_EQUIP_GOLD,
             () -> ModItems.IMBUED_BONE.get());
+
     //Tier 5 - Obsidian
     public static final Holder<ArmorMaterial> OBSIDIAN_ARMOR_MATERIAL = register("obsidian",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {

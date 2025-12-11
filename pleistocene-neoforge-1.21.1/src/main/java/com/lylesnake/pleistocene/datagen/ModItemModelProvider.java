@@ -20,6 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.FOX_FUR.get());
         basicItem(ModItems.SNOW_FOX_FUR.get());
         basicItem(ModItems.POLAR_BEAR_FUR.get());
+        basicItem(ModItems.MAMMOTH_FUR.get());
         basicItem(ModItems.PROCESSED_FUR.get());
         basicItem(ModItems.ASH.get());
         basicItem(ModItems.WEAK_SOLUTION.get());
@@ -80,6 +81,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.OBSIDIAN_SHOVEL);
         handheldItem(ModItems.OBSIDIAN_SWORD);
         handheldItem(ModItems.OBSIDIAN_HOE);
+
+        withExistingParent(ModItems.MAMMOTH_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private ItemModelBuilder handheldItem(DeferredItem<?> item) {

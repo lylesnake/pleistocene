@@ -39,31 +39,83 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                 new AddItemModifier(new LootItemCondition[]{
                         LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.CAMPFIRE).build(),
                 }, ModItems.ASH.get(), 0.33f, 1, 3, false));
+
         this.add("fox_fur_to_fox",
                 new AddItemModifier(new LootItemCondition[] {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/fox")).build(),
                         LootItemKilledByPlayerCondition.killedByPlayer().build()
-                }, ModItems.FOX_FUR.get(), 0.5f, 1, 2, true));
+                }, ModItems.FOX_FUR.get(), 0.3f, 0, 1, true));
+        this.add("bone_to_fox",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/fox")).build(),
+                        LootItemKilledByPlayerCondition.killedByPlayer().build()
+                }, Items.BONE, 0.1f, 0, 1, true));
+
         this.add("polar_bear_fur_to_polar_bear",
                 new AddItemModifier(new LootItemCondition[] {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/polar_bear")).build(),
                         LootItemKilledByPlayerCondition.killedByPlayer().build()
                 }, ModItems.POLAR_BEAR_FUR.get(), 0.5f, 2, 4, true));
+        this.add("bone_to_polar_bear",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/polar_bear")).build(),
+                        LootItemKilledByPlayerCondition.killedByPlayer().build()
+                }, Items.BONE, 0.2f, 0, 2, true));
+
         this.add("wolf_fur_to_wolf",
                 new AddItemModifier(new LootItemCondition[] {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/wolf")).build(),
                         LootItemKilledByPlayerCondition.killedByPlayer().build()
-                }, ModItems.WOLF_FUR.get(), 0.33f, 1, 3, true));
+                }, ModItems.WOLF_FUR.get(), 0.3f, 0, 2, true));
+        this.add("bone_to_wolf",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/wolf")).build(),
+                        LootItemKilledByPlayerCondition.killedByPlayer().build()
+                }, Items.BONE, 0.1f, 0, 1, true));
 
         this.add("rawhide_to_pig",
                 new AddItemModifier(new LootItemCondition[] {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/pig")).build(),
                         LootItemKilledByPlayerCondition.killedByPlayer().build()
-                }, ModItems.RAWHIDE.get(), 0.33f, 1, 3, true), new ICondition[0]);
+                }, ModItems.RAWHIDE.get(), 0.3f, 0, 3, true));
+        this.add("bone_to_pig",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/pig")).build(),
+                        LootItemKilledByPlayerCondition.killedByPlayer().build()
+                }, Items.BONE, 0.1f, 0, 1, true));
+        this.add("bone_to_cow",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/cow")).build(),
+                        LootItemKilledByPlayerCondition.killedByPlayer().build()
+                }, Items.BONE, 0.1f, 0, 1, true));
+       this.add("bone_to_mooshroom",
+                    new AddItemModifier(new LootItemCondition[] {
+                            new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/mooshroom")).build(),
+                            LootItemKilledByPlayerCondition.killedByPlayer().build()
+                    }, Items.BONE, 0.1f, 0, 1, true));
+       this.add("bone_to_horse",
+                    new AddItemModifier(new LootItemCondition[] {
+                            new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/hose")).build(),
+                            LootItemKilledByPlayerCondition.killedByPlayer().build()
+                    }, Items.BONE, 0.1f, 0, 2, true));
+       this.add("bone_to_llama",
+                    new AddItemModifier(new LootItemCondition[] {
+                            new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/llama")).build(),
+                            LootItemKilledByPlayerCondition.killedByPlayer().build()
+                    }, Items.BONE, 0.1f, 0, 2, true));
+       this.add("bone_to_mule",
+                    new AddItemModifier(new LootItemCondition[] {
+                            new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/mule")).build(),
+                            LootItemKilledByPlayerCondition.killedByPlayer().build()
+                    }, Items.BONE, 0.1f, 0, 2, true));
+       this.add("bone_to_donkey",
+                    new AddItemModifier(new LootItemCondition[] {
+                            new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("entities/donkey")).build(),
+                            LootItemKilledByPlayerCondition.killedByPlayer().build()
+                    }, Items.BONE, 0.1f, 0, 2, true));
     }
 
-    private void replaceStoneDrops()
-    {
+    private void replaceStoneDrops() {
         // Stone(s)
         add("rocks_to_stone", new ReplaceLootModifier(new LootItemCondition[] {
                 LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.STONE).build(),

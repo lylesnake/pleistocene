@@ -1,0 +1,12 @@
+// 1.21.1	2025-12-05T18:48:31.1664852	Tags for minecraft:item mod id pleistocene
+29339e71cf4206d612299d74d3df9e01f49d63d3 data/c/tags/item/tools/shear.json
+aabf32ae45e7b14207034f3f021dbbdc9516f7a4 data/minecraft/tags/item/axes.json
+9f14ac1518bd623e6170d6c198afbdff3a8d65fb data/minecraft/tags/item/hoes.json
+2867e9d4c7c4a44517506d5902992d30fe67c166 data/minecraft/tags/item/pickaxes.json
+120903c5e069e134b38fa165b4bf87d8cf2161e6 data/minecraft/tags/item/shovels.json
+bb60396da8216adbc250f9387e040ec95ae11069 data/minecraft/tags/item/swords.json
+ded96b86b6fbc6e968f3ee283f2a6cf5fe687408 data/pleistocene/tags/item/bone_tools.json
+f4297d969c043efa1e4fb22345bdc254617a1b34 data/pleistocene/tags/item/flint_tools.json
+801f1bf67f16871b866073700d7ed8f27272dcf4 data/pleistocene/tags/item/hand_tools.json
+21faf0ee82bfa453cc9a922ca68c749a6c237b32 data/pleistocene/tags/item/imbued_tools.json
+40e584b75f15f790118926ead56dd3b9d5edda47 data/pleistocene/tags/item/obsidian_tools.json

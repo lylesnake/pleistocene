@@ -22,8 +22,7 @@ public class ModEntities  {
     // set the hitbox here
     public static final Supplier<EntityType<MammothEntity>> MAMMOTH =
             ENTITY_TYPES.register("mammoth", () -> EntityType.Builder.of(MammothEntity::new, MobCategory.CREATURE)
-                    .sized(3, 4).build("mammoth"));
-
+                    .sized(2, 2).build("mammoth"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

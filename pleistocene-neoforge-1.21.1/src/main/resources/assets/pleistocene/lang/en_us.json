@@ -11,6 +11,7 @@
   "item.pleistocene.fox_fur": "Fox Pelt",
   "item.pleistocene.snow_fox_fur": "Snow Fox Pelt",
   "item.pleistocene.polar_bear_fur": "Polar Bear Pelt",
+  "item.pleistocene.mammoth_fur": "Mammoth Pelt",
 
   "item.pleistocene.weak_solution": "Weak Solution",
   "item.pleistocene.ash": "Ash",
@@ -71,5 +72,9 @@
   "item.pleistocene.obsidian_sword": "Obsidian Sword",
   "item.pleistocene.obsidian_pickaxe": "Obsidian Pickaxe",
   "item.pleistocene.obsidian_shovel": "Obsidian Shovel",
-  "item.pleistocene.obsidian_hoe": "Obsidian Hoe"
+  "item.pleistocene.obsidian_hoe": "Obsidian Hoe",
+
+  "item.pleistocene.mammoth_spawn_egg": "Mammoth Spawn Egg",
+
+  "entity.pleistocene.mammoth": "Mammoth"
 }

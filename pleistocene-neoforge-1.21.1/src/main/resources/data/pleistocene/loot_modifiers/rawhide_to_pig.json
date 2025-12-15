@@ -1,0 +1,17 @@
+{
+  "type": "pleistocene:add_item",
+  "chance": 0.3,
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/pig"
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    }
+  ],
+  "ignoresilktouch": true,
+  "item": "pleistocene:rawhide",
+  "maxamount": 3,
+  "minamount": 3
+}

@@ -1,7 +1,10 @@
 {
   "creativetab.pleistocene.pleistocene_tab": "Pleistocene Mod",
 
+  "world_preset.pleistocene.pleistocene": "Pleistocene",
+
   "block.pleistocene.flint_block": "Pila de pedernal",
+  "block.pleistocene.wicker_block": "Mimbre",
   "block.pleistocene.pedestal": "Pedestal",
 
   "block.pleistocene.drying_rack": "Tendedero",

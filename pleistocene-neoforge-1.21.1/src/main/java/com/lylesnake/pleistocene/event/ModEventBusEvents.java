@@ -3,6 +3,7 @@ package com.lylesnake.pleistocene.event;
 import com.lylesnake.pleistocene.Pleistocene;
 import com.lylesnake.pleistocene.entity.ModEntities;
 import com.lylesnake.pleistocene.entity.mammoth.MammothEntity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.SpawnPlacementType;
 import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.animal.Animal;
@@ -17,7 +18,13 @@ public class ModEventBusEvents {
 
     @SubscribeEvent
     public static void registerSpawnPlacements (RegisterSpawnPlacementsEvent event) {
-        event.register(ModEntities.MAMMOTH.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-                Animal::checkAnimalSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(
+                ModEntities.MAMMOTH.get(),
+                SpawnPlacementTypes.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                Animal::checkAnimalSpawnRules,
+                RegisterSpawnPlacementsEvent.Operation.REPLACE);
+
+
     }
 }

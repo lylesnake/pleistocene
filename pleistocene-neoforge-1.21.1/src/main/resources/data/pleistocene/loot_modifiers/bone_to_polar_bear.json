@@ -1,0 +1,17 @@
+{
+  "type": "pleistocene:add_item",
+  "chance": 0.2,
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/polar_bear"
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    }
+  ],
+  "ignoresilktouch": true,
+  "item": "minecraft:bone",
+  "maxamount": 2,
+  "minamount": 2
+}

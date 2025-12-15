@@ -7,12 +7,16 @@ import com.lylesnake.pleistocene.block.entity.dryingrack.DryingRackBlockEntity;
 import com.lylesnake.pleistocene.block.entity.renderer.PedestalBlockEntityRenderer;
 import com.lylesnake.pleistocene.entity.ModEntities;
 import com.lylesnake.pleistocene.entity.ModEntityAttributes;
+import com.lylesnake.pleistocene.event.ModEventBusEvents;
 import com.lylesnake.pleistocene.item.ModCreativeModeTabs;
 import com.lylesnake.pleistocene.item.ModItems;
 import com.lylesnake.pleistocene.loot.ModLootModifiers;
 import com.lylesnake.pleistocene.recipe.ModRecipeSerializers;
 import com.lylesnake.pleistocene.recipe.ModRecipeTypes;
 import com.lylesnake.pleistocene.sound.ModSounds;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
@@ -59,7 +63,7 @@ public class Pleistocene {
 
         NeoForge.EVENT_BUS.register(this);
 
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC); // register config
 
         modEventBus.addListener(this::registerCapabilities);
     }

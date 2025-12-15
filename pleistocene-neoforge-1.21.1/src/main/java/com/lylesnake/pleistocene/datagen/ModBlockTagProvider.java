@@ -1,6 +1,7 @@
 package com.lylesnake.pleistocene.datagen;
 
 import com.lylesnake.pleistocene.Pleistocene;
+import com.lylesnake.pleistocene.block.ModBlocks;
 import com.lylesnake.pleistocene.item.ModItems;
 import com.lylesnake.pleistocene.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -8,6 +9,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
@@ -21,6 +23,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+
         tag(ModTags.Blocks.NEEDS_HAND_TOOL)
                 .addTag(BlockTags.LOGS)
                 .addTag(BlockTags.PLANKS);

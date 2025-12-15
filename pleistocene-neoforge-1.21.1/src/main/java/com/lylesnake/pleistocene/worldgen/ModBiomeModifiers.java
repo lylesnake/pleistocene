@@ -19,7 +19,6 @@ import java.util.List;
 
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> SPAWN_MAMMOTH = registerKey("spawn_mammoth");
-    public static final ResourceKey<BiomeModifier> SPAWN_ALLAY = registerKey("spawn_allay");
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
         // Configured Features -> Placed Features -> Biome Modifiers
@@ -34,13 +33,6 @@ public class ModBiomeModifiers {
                         biomes.getOrThrow(Biomes.PLAINS)),
                 List.of(new MobSpawnSettings.SpawnerData(ModEntities.MAMMOTH.get(), 10, 3, 6))));
 
-        context.register(SPAWN_ALLAY, new BiomeModifiers.AddSpawnsBiomeModifier(
-                HolderSet.direct(
-                        biomes.getOrThrow(Biomes.SNOWY_BEACH),
-                        biomes.getOrThrow(Biomes.SNOWY_PLAINS),
-                        biomes.getOrThrow(Biomes.SNOWY_SLOPES),
-                        biomes.getOrThrow(Biomes.PLAINS)),
-                List.of(new MobSpawnSettings.SpawnerData(EntityType.ALLAY, 4, 1, 2))));
     }
 
     private static ResourceKey<BiomeModifier> registerKey(String name) {

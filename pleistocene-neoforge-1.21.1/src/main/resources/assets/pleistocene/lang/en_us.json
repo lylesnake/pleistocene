@@ -1,7 +1,10 @@
 {
   "creativetab.pleistocene.pleistocene_tab": "Pleistocene Mod",
 
+  "world_preset.pleistocene.pleistocene": "Pleistocene",
+
   "block.pleistocene.flint_block": "Pile of Flint",
+  "block.pleistocene.wicker_block": "Wicker",
   "block.pleistocene.pedestal": "Pedestal",
   "block.pleistocene.drying_rack": "Drying Rack",
   "block.pleistocene.chopping_block": "Chopping Block",
@@ -76,5 +79,12 @@
 
   "item.pleistocene.mammoth_spawn_egg": "Mammoth Spawn Egg",
 
-  "entity.pleistocene.mammoth": "Mammoth"
+  "entity.pleistocene.mammoth": "Mammoth",
+
+  "pleistocene.configuration.disableSkeletons": "Disable Skeletons?",
+  "pleistocene.configuration.disableCreepers": "Disable Creepers?",
+  "pleistocene.configuration.disableEndermen": "Disable Endermen?",
+  "pleistocene.configuration.disableZombies": "Disable Zombies?",
+
+  "pleistocene.configuration.removeVanillaStructures": "Disable structures?"
 }

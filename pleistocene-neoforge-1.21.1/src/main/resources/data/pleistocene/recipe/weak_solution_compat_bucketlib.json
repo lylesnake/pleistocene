@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bucketlib"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "type": "bucketlib:fluid",
+      "tag": "minecraft:water"
+    },
+    {
+      "item": "pleistocene:ash"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pleistocene:weak_solution"
+  }
+}

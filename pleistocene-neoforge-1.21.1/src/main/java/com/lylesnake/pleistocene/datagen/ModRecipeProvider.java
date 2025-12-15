@@ -44,11 +44,11 @@ public class ModRecipeProvider extends RecipeProvider {
                 .save(recipeOutput, "pleistocene:flint_from_flint_block");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.COBBLESTONE, 1)
-                .requires(ModItems.ROCK.get())
-                .requires(ModItems.ROCK.get())
-                .requires(ModItems.ROCK.get())
-                .requires(ModItems.ROCK.get())
-                .unlockedBy("has_rock", has(ModItems.ROCK.get()))
+                .requires(ModTags.Items.ROCKS)
+                .requires(ModTags.Items.ROCKS)
+                .requires(ModTags.Items.ROCKS)
+                .requires(ModTags.Items.ROCKS)
+                .unlockedBy("has_rock", has(ModTags.Items.ROCKS))
                 .save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DRYING_RACK.get())
@@ -94,15 +94,15 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('R', Items.RABBIT_HIDE)
                 .save(recipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KNAPPED_FLINT.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KNAPPED_FLINT.get(), 3)
                 .requires(Items.FLINT)
-                .requires(ModItems.ROCK.get())
+                .requires(ModTags.Items.ROCKS)
                 .unlockedBy("has_flint", has(Items.FLINT))
                 .save(recipeOutput);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KNAPPED_BONE.get())
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.KNAPPED_BONE.get(), 3)
                 .requires(Items.BONE)
-                .requires(ModItems.ROCK.get())
+                .requires(ModTags.Items.ROCKS)
                 .unlockedBy("has_bone", has(Items.BONE))
                 .save(recipeOutput);
 

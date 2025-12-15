@@ -1,0 +1,14 @@
+{
+  "type": "pleistocene:add_item",
+  "chance": 1,
+  "conditions": [
+    {
+      "block": "minecraft:campfire",
+      "condition": "minecraft:block_state_property"
+    }
+  ],
+  "ignoresilktouch": false,
+  "item": "pleistocene:ash",
+  "maxamount": 3,
+  "minamount": 1
+}

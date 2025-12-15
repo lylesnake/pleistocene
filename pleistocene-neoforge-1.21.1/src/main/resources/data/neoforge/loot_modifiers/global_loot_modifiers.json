@@ -1,0 +1,31 @@
+{
+  "entries": [
+    "pleistocene:ash_to_campfire",
+    "pleistocene:fox_fur_to_fox",
+    "pleistocene:bone_to_fox",
+    "pleistocene:polar_bear_fur_to_polar_bear",
+    "pleistocene:bone_to_polar_bear",
+    "pleistocene:wolf_fur_to_wolf",
+    "pleistocene:bone_to_wolf",
+    "pleistocene:rawhide_to_pig",
+    "pleistocene:bone_to_pig",
+    "pleistocene:bone_to_cow",
+    "pleistocene:bone_to_mooshroom",
+    "pleistocene:bone_to_horse",
+    "pleistocene:bone_to_llama",
+    "pleistocene:bone_to_mule",
+    "pleistocene:bone_to_donkey",
+    "pleistocene:rocks_to_stone",
+    "pleistocene:rocks_to_andesite",
+    "pleistocene:rocks_to_diorite",
+    "pleistocene:rocks_to_granite",
+    "pleistocene:rawhide_to_cow",
+    "pleistocene:rawhide_to_mooshroom",
+    "pleistocene:rawhide_to_horse",
+    "pleistocene:rawhide_to_llama",
+    "pleistocene:rawhide_to_mule",
+    "pleistocene:rawhide_to_donkey",
+    "pleistocene:rawhide_to_trader_llama"
+  ],
+  "replace": false
+}

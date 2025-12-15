@@ -6,6 +6,10 @@
   "item.minecraft.writable_book": "Tablilla y estilo",
   "item.minecraft.written_book": "Tablilla escrita",
 
-  "lectern.take_book": "Toma tablilla"
+  "block.minecraft.brown_bed": "Lecho de pieles animales",
+
+  "lectern.take_book": "Toma tablilla",
+
+  "item.minecraft.wooden_sword": "Maso de madera"
 
 }

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#pleistocene:rocks_simple",
+      "required": false
+    },
+    {
+      "id": "#pleistocene:rocks_compat",
+      "required": false
+    }
+  ]
+}

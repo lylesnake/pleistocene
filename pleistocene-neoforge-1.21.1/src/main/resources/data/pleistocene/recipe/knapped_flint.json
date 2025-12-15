@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "tag": "pleistocene:rocks"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "pleistocene:knapped_flint"
+  }
+}

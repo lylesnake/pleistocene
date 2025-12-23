@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/knap_bone",
+  "criteria": {
+    "imbued_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_bone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.pleasing_the_gods.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:imbued_bone"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.pleasing_the_gods"
+    }
+  },
+  "requirements": [
+    [
+      "imbued_bone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

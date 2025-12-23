@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/root",
+  "criteria": {
+    "hand_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:hand_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.craft_hand_axe.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:hand_axe"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.craft_hand_axe"
+    }
+  },
+  "requirements": [
+    [
+      "hand_axe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

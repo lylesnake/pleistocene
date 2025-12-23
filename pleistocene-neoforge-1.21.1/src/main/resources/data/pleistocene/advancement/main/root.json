@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "spawn": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/mud_bricks.png",
+    "description": {
+      "translate": "pleistocene.advancement.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ice"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "pleistocene.advancement.root"
+    }
+  },
+  "requirements": [
+    [
+      "spawn"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

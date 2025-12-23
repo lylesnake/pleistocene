@@ -31,7 +31,7 @@ public class ModBiomeModifiers {
                         biomes.getOrThrow(Biomes.SNOWY_PLAINS),
                         biomes.getOrThrow(Biomes.SNOWY_SLOPES),
                         biomes.getOrThrow(Biomes.PLAINS)),
-                List.of(new MobSpawnSettings.SpawnerData(ModEntities.MAMMOTH.get(), 10, 3, 6))));
+                List.of(new MobSpawnSettings.SpawnerData(ModEntities.MAMMOTH.get(), 15, 3, 6))));
 
     }
 

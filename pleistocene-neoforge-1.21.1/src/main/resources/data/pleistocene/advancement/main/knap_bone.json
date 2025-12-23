@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/knap_flint",
+  "criteria": {
+    "knapped_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:knapped_bone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.waste_not_want_not.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:knapped_bone"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.waste_not_want_not"
+    }
+  },
+  "requirements": [
+    [
+      "knapped_bone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "pleistocene:main/craft_firesticks",
+  "criteria": {
+    "use_firesticks": {
+      "conditions": {
+        "item": {
+          "items": "pleistocene:fire_sticks"
+        }
+      },
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.we_lit_the_fire.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.we_lit_the_fire"
+    }
+  },
+  "requirements": [
+    [
+      "use_firesticks"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

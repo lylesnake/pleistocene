@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/obtain_pelt",
+  "criteria": {
+    "weak_solution": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:weak_solution"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.ancient_chemist.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:weak_solution"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.ancient_chemist"
+    }
+  },
+  "requirements": [
+    [
+      "weak_solution"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

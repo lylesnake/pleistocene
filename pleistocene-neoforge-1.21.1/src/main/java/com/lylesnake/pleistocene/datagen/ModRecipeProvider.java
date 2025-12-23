@@ -14,6 +14,7 @@ import net.minecraft.world.item.crafting.SmeltingRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.neoforged.neoforge.common.Tags;
 
 import java.awt.event.ItemListener;
 import java.util.List;
@@ -65,6 +66,15 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_log", has(ItemTags.LOGS))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PEDESTAL.get())
+                .pattern("ALA")
+                .pattern("ALA")
+                .pattern("ZLZ")
+                .define('L', Tags.Items.STRIPPED_LOGS)
+                .define('A', Items.AMETHYST_SHARD)
+                .define('Z', Items.LAPIS_LAZULI)
+                .unlockedBy("has_log", has(ItemTags.LOGS))
+                .save(recipeOutput);
 
         // ------ INGREDIENTS ------
 

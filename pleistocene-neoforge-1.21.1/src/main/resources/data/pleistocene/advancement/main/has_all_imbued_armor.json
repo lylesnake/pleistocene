@@ -1,0 +1,74 @@
+{
+  "parent": "pleistocene:main/craft_imbued_bone",
+  "criteria": {
+    "imbued_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imbued_hood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_hood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imbued_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imbued_poncho": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_poncho"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.spooky_scary.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:imbued_hood"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.spooky_scary"
+    }
+  },
+  "requirements": [
+    [
+      "imbued_hood"
+    ],
+    [
+      "imbued_poncho"
+    ],
+    [
+      "imbued_leggings"
+    ],
+    [
+      "imbued_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/root",
+  "criteria": {
+    "hide_loincloth": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:hide_loincloth"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.tarzan.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:hide_loincloth"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.tarzan"
+    }
+  },
+  "requirements": [
+    [
+      "hide_loincloth"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

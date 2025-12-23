@@ -1,0 +1,66 @@
+{
+  "parent": "pleistocene:main/root",
+  "criteria": {
+    "f_fur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:fox_fur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "m_fur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:mammoth_fur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "p_fur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:polar_bear_fur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "w_fur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:wolf_fur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.nice_fur.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:wolf_fur"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.nice_fur"
+    }
+  },
+  "requirements": [
+    [
+      "f_fur",
+      "m_fur",
+      "p_fur",
+      "w_fur"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

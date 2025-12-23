@@ -1,0 +1,61 @@
+{
+  "parent": "pleistocene:main/obtain_fur_boots",
+  "criteria": {
+    "fur_hood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:fur_hood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fur_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:fur_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fur_tunic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:fur_tunic"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.are_you_a_furry.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:fur_hood"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.are_you_a_furry"
+    }
+  },
+  "requirements": [
+    [
+      "fur_hood"
+    ],
+    [
+      "fur_tunic"
+    ],
+    [
+      "fur_leggings"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

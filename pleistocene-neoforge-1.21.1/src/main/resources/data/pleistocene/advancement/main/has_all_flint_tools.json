@@ -1,0 +1,100 @@
+{
+  "parent": "pleistocene:main/craft_flint_axe",
+  "criteria": {
+    "flint_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:flint_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "flint_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:flint_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "flint_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:flint_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "flint_shears": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:flint_shears"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "flint_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:flint_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "flint_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:flint_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.fred_flintstone.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:flint_pickaxe"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.fred_flintstone"
+    }
+  },
+  "requirements": [
+    [
+      "flint_sword"
+    ],
+    [
+      "flint_axe"
+    ],
+    [
+      "flint_pickaxe"
+    ],
+    [
+      "flint_shovel"
+    ],
+    [
+      "flint_hoe"
+    ],
+    [
+      "flint_shears"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

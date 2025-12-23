@@ -1,0 +1,132 @@
+{
+  "parent": "pleistocene:main/craft_chopping_block",
+  "criteria": {
+    "a_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "b_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ch_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "co_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cr_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "j_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "m_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "o_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "s_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "w_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.chop_chop.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.chop_chop"
+    }
+  },
+  "requirements": [
+    [
+      "a_planks",
+      "b_planks",
+      "ch_planks",
+      "cr_planks",
+      "co_planks",
+      "j_planks",
+      "m_planks",
+      "o_planks",
+      "s_planks",
+      "w_planks"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

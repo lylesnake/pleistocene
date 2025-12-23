@@ -32,6 +32,8 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
         addToVanillaDrops();
         replaceStoneDrops();
         replaceAnimalDrops();
+        // custom entity drops must be done manually
+
     }
 
     private void addToVanillaDrops() {

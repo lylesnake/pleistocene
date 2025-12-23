@@ -16,6 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
         basicItem(ModItems.WOLF_FUR.get());
         basicItem(ModItems.FOX_FUR.get());
         basicItem(ModItems.SNOW_FOX_FUR.get());
@@ -54,6 +55,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TWINE.get());
         basicItem(ModItems.ROCK.get());
 
+
         handheldItem(ModItems.HAND_AXE);
         handheldItem(ModItems.FIRE_STICKS);
 
@@ -83,6 +85,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.OBSIDIAN_HOE);
 
         withExistingParent(ModItems.MAMMOTH_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        basicItem(ModItems.CAMPFIRE_UNLIT.get());
     }
 
     private ItemModelBuilder handheldItem(DeferredItem<?> item) {

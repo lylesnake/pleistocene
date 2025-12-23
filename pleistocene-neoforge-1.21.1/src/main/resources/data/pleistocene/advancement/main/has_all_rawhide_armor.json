@@ -1,0 +1,61 @@
+{
+  "parent": "pleistocene:main/craft_hide_loincloth",
+  "criteria": {
+    "hide_chestpiece": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:hide_chestpiece"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hide_mask": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:hide_mask"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hide_sandals": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:hide_sandals"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.one_with_nature.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:hide_mask"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.one_with_nature"
+    }
+  },
+  "requirements": [
+    [
+      "hide_mask"
+    ],
+    [
+      "hide_chestpiece"
+    ],
+    [
+      "hide_sandals"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

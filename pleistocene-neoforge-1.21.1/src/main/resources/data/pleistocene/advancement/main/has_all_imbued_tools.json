@@ -1,0 +1,87 @@
+{
+  "parent": "pleistocene:main/craft_imbued_bone",
+  "criteria": {
+    "imbued_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imbued_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imbued_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imbued_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imbued_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:imbued_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.champion_of_the_gods.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:imbued_pickaxe"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.champion_of_the_gods"
+    }
+  },
+  "requirements": [
+    [
+      "imbued_sword"
+    ],
+    [
+      "imbued_axe"
+    ],
+    [
+      "imbued_pickaxe"
+    ],
+    [
+      "imbued_shovel"
+    ],
+    [
+      "imbued_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

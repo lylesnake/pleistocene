@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/knap_flint",
+  "criteria": {
+    "flint_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:flint_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.a_sharper_axe.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:flint_axe"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.a_sharper_axe"
+    }
+  },
+  "requirements": [
+    [
+      "flint_axe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

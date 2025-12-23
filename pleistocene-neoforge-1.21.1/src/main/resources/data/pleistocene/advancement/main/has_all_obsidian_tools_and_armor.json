@@ -1,0 +1,139 @@
+{
+  "parent": "pleistocene:main/smelt_obsidian",
+  "criteria": {
+    "obsidian_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obsidian_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.obsidian_obsession.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:obsidian_pickaxe"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.obsidian_obsession"
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_sword"
+    ],
+    [
+      "obsidian_axe"
+    ],
+    [
+      "obsidian_pickaxe"
+    ],
+    [
+      "obsidian_shovel"
+    ],
+    [
+      "obsidian_hoe"
+    ],
+    [
+      "obsidian_helmet"
+    ],
+    [
+      "obsidian_chestplate"
+    ],
+    [
+      "obsidian_leggings"
+    ],
+    [
+      "obsidian_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

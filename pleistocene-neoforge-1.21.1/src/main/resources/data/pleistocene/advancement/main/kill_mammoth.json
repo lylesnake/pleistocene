@@ -1,0 +1,39 @@
+{
+  "parent": "pleistocene:main/root",
+  "criteria": {
+    "kill_mammoth": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "pleistocene:mammoth"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.mammoth_hunter.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:flint_sword"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.mammoth_hunter"
+    }
+  },
+  "requirements": [
+    [
+      "kill_mammoth"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

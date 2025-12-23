@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/knap_bone",
+  "criteria": {
+    "bone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:bone_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.bone_to_pick.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:bone_pickaxe"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.bone_to_pick"
+    }
+  },
+  "requirements": [
+    [
+      "bone_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

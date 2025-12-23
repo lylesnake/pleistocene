@@ -1,0 +1,87 @@
+{
+  "parent": "pleistocene:main/bone_pickaxe",
+  "criteria": {
+    "bone_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:bone_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bone_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:bone_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:bone_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bone_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:bone_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bone_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:bone_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.reaper.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:bone_sword"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.reaper"
+    }
+  },
+  "requirements": [
+    [
+      "bone_sword"
+    ],
+    [
+      "bone_axe"
+    ],
+    [
+      "bone_pickaxe"
+    ],
+    [
+      "bone_shovel"
+    ],
+    [
+      "bone_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

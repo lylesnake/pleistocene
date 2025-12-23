@@ -1,0 +1,132 @@
+{
+  "parent": "pleistocene:main/craft_hand_axe",
+  "criteria": {
+    "a_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "b_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ch_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cr_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_stem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "do_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "j_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "m_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "o_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "s_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "w_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_stem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.acquire_logs.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.acquire_logs"
+    }
+  },
+  "requirements": [
+    [
+      "a_logs",
+      "b_logs",
+      "ch_logs",
+      "do_logs",
+      "j_logs",
+      "m_logs",
+      "o_logs",
+      "s_logs",
+      "cr_logs",
+      "w_logs"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

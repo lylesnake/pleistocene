@@ -1,0 +1,33 @@
+{
+  "parent": "pleistocene:main/craft_imbued_bone",
+  "criteria": {
+    "obsidian_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pleistocene:obsidian_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "pleistocene.advancement.forged_in_lava.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "pleistocene:obsidian_shard"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.forged_in_lava"
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_shard"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

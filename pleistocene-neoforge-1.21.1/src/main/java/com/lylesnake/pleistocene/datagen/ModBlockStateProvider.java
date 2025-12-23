@@ -16,6 +16,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         // blocks list
+        // simple blocks only
+        // block entities must be handled manually
+
         blockWithItem(ModBlocks.FLINT_BLOCK);
     }
 

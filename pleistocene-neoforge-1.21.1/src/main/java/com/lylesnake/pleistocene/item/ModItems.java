@@ -53,6 +53,8 @@ public class ModItems {
                 () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROCK = ITEMS.register("rock",
                 () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CAMPFIRE_UNLIT = ITEMS.register("campfire_unlit",
+                () -> new Item(new Item.Properties()));
 
     // Tools
     public static final DeferredItem<FlintAndSteelItem> FIRE_STICKS = ITEMS.register("fire_sticks",

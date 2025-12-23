@@ -1,19 +1,7 @@
 package com.lylesnake.pleistocene;
 
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
-
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Item;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.event.config.ModConfigEvent;
 import net.neoforged.neoforge.common.ModConfigSpec;
 
-// An example config class. This is not required, but it's a good idea to have one to keep your config organized.
-// Demonstrates how to use Neo's config APIs
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
@@ -33,9 +21,17 @@ public class Config {
             .comment("Disable enderman natural spawning")
             .define("disableEndermen", true);
 
-    public static final ModConfigSpec.BooleanValue REMOVE_STRUCTURES = BUILDER
-            .comment("Remove vanilla structures like dungeons, mansions, etc.")
-            .define("removeVanillaStructures", true);
+    public static final ModConfigSpec.BooleanValue DISABLE_SPIDERS = BUILDER
+            .comment("Disable spider natural spawning")
+            .define("disableSpiders", true);
+
+    public static final ModConfigSpec.BooleanValue DISABLE_HOSTILE_HUMANOIDS = BUILDER
+            .comment("Disable hostile humanoids (i.e. witches, raiders, etc) natural spawning")
+            .define("disableWitches", true);
+
+    public static final ModConfigSpec.BooleanValue DISABLE_WARDEN = BUILDER
+            .comment("Disable Warden natural spawning")
+            .define("disableWarden", true);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 

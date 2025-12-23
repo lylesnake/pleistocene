@@ -61,7 +61,7 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .addCriterion("chopping_block", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.CHOPPING_BLOCK.get()))
                     .save(saver, getNameId("main/craft_chopping_block"));
 
-            AdvancementHolder walkThePlank = getAdvancement(chopChop, Blocks.OAK_PLANKS, "chop_chop", AdvancementType.TASK, true, true, false)
+            AdvancementHolder walkThePlank = getAdvancement(chopChop, Blocks.OAK_PLANKS, "walk_the_plank", AdvancementType.TASK, true, true, false)
                     .addCriterion("a_planks", InventoryChangeTrigger.TriggerInstance.hasItems(Blocks.ACACIA_PLANKS))
                     .addCriterion("b_planks", InventoryChangeTrigger.TriggerInstance.hasItems(Blocks.BIRCH_PLANKS))
                     .addCriterion("ch_planks", InventoryChangeTrigger.TriggerInstance.hasItems(Blocks.CHERRY_PLANKS))
@@ -168,6 +168,10 @@ public class ModAdvancementProvider extends AdvancementProvider {
             AdvancementHolder mammothHunter = getAdvancement(pleistocene, ModItems.FLINT_SWORD.get(), "mammoth_hunter", AdvancementType.CHALLENGE, true, true, true)
                     .addCriterion("kill_mammoth", KilledTrigger.TriggerInstance.playerKilledEntity(EntityPredicate.Builder.entity().of(ModEntities.MAMMOTH.get())))
                     .save(saver, getNameId("main/kill_mammoth"));
+
+            AdvancementHolder otziTheIceMan = getAdvancement(pleistocene, Items.SNOW_BLOCK, "otzi_the_iceman", AdvancementType.TASK, true, true, true)
+                    .addCriterion("die_by_freezing", CriteriaTriggers.IMPOSSIBLE.createCriterion(new ImpossibleTrigger.TriggerInstance()))
+                    .save(saver, getNameId("main/die_by_freezing"));
 
             AdvancementHolder fredFlintstone = getAdvancement(aSharperAxe, ModItems.FLINT_PICKAXE.get(), "fred_flintstone", AdvancementType.GOAL, true, true, true)
                     .addCriterion("flint_sword", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.FLINT_SWORD.get()))

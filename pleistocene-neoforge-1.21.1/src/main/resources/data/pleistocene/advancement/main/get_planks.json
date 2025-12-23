@@ -104,14 +104,14 @@
   },
   "display": {
     "description": {
-      "translate": "pleistocene.advancement.chop_chop.desc"
+      "translate": "pleistocene.advancement.walk_the_plank.desc"
     },
     "icon": {
       "count": 1,
       "id": "minecraft:oak_planks"
     },
     "title": {
-      "translate": "pleistocene.advancement.chop_chop"
+      "translate": "pleistocene.advancement.walk_the_plank"
     }
   },
   "requirements": [

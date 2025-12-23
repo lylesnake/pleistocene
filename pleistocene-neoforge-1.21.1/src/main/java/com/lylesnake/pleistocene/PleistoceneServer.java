@@ -46,7 +46,4 @@ public class PleistoceneServer {
             event.setCanHarvest(canHarvest && mainHand.canPerformAction(ItemAbilities.AXE_DIG));
         }
     }
-
-
-
 }

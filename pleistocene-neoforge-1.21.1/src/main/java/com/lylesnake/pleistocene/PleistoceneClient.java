@@ -26,32 +26,20 @@ import software.bernie.geckolib.event.GeoRenderEvent;
 
 import java.util.function.BiConsumer;
 
-// This class will not load on dedicated servers. Accessing client side code from here is safe.
 @Mod(value = Pleistocene.MODID, dist = Dist.CLIENT)
-// You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
 @EventBusSubscriber(modid = Pleistocene.MODID, value = Dist.CLIENT)
 public class PleistoceneClient {
     public PleistoceneClient(ModContainer container) {
-        // Allows NeoForge to create a config screen for this mod's configs.
-        // The config screen is accessed by going to the Mods screen > clicking on your mod > clicking on config.
-        // Do not forget to add translations for your config options to the en_us.json file.
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
         // Some client setup code
-        Pleistocene.LOGGER.info("HELLO FROM PLEISTOCENE CLIENT SETUP");
+        Pleistocene.LOGGER.info("Pleistocene config should be visible");
         Pleistocene.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
 
-    @SubscribeEvent
-    public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event)
-    {
-        // vanilla renderers
-        event.registerBlockEntityRenderer(ModBlockEntities.CHOPPING_BLOCK_BE.get(), ChoppingBlockEntityRenderer::new);
-        event.registerBlockEntityRenderer(ModBlockEntities.DRYING_RACK_BE.get(), DryingRackBlockEntityRenderer::new);
-    }
 
 
 }

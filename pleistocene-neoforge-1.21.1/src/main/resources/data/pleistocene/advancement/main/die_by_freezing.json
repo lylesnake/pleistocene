@@ -1,0 +1,27 @@
+{
+  "parent": "pleistocene:main/root",
+  "criteria": {
+    "die_by_freezing": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate":
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "pleistocene.advancement.otzi_the_iceman"
+    }
+  },
+  "requirements": [
+    [
+      "die_by_freezing"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

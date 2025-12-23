@@ -4,6 +4,8 @@ import com.lylesnake.pleistocene.block.ModBlocks;
 import com.lylesnake.pleistocene.block.entity.ModBlockEntities;
 import com.lylesnake.pleistocene.block.entity.choppingblock.ChoppingBlockEntity;
 import com.lylesnake.pleistocene.block.entity.dryingrack.DryingRackBlockEntity;
+import com.lylesnake.pleistocene.block.entity.renderer.ChoppingBlockEntityRenderer;
+import com.lylesnake.pleistocene.block.entity.renderer.DryingRackBlockEntityRenderer;
 import com.lylesnake.pleistocene.block.entity.renderer.PedestalBlockEntityRenderer;
 import com.lylesnake.pleistocene.entity.ModEntities;
 import com.lylesnake.pleistocene.entity.ModEntityAttributes;
@@ -42,8 +44,6 @@ public class Pleistocene {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
 
-    // The constructor for the mod class is the first code that is run when your mod is loaded.
-    // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public Pleistocene(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
@@ -91,6 +91,8 @@ public class Pleistocene {
         @SubscribeEvent
         public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
             event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
+            event.registerBlockEntityRenderer(ModBlockEntities.CHOPPING_BLOCK_BE.get(), ChoppingBlockEntityRenderer::new);
+            event.registerBlockEntityRenderer(ModBlockEntities.DRYING_RACK_BE.get(), DryingRackBlockEntityRenderer::new);
         }
 
     }

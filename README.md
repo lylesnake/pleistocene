@@ -1,184 +1,250 @@
 # Pleistocene
 
-Turn Minecraft into a prehistoric Ice Age adventure! Travel back in time to the dangerous yet exciting Pleistocene era. Knap flint, perform ancient rituals, and hunt majestic creatures.
+Travel back in time to the Pleistocene era with new items, tools, mobs, and game mechanics.
 
-Features include:
+Features include: 
 
+* Comprehensive advancement tree
 * New items
 * New blocks
 * Reworked progression
+* Immersive crafting
 * New mechanics
-* Altered worldgen
+* Altered worldgen 
 * New mobs (including the majestic Woolly Mammoth!)
 * Integration with other mods
 
-## Getting Started
-Start off by getting flint. Then make yourself a flint hand axe (or two--they're very fragile!). After you have your first tool, you can acquire logs. The most important thing you'll want to make after that is a fire. In the Pleistocene era, fire represents your life. Without fire, you won't survive long.
+> **NOTE**
+> 
+> This mod should be installed for a new world since it alters world generation. Many vanilla recipes (i.e. metal, diamond, etc.) are disabled in order to create an immersive ice age world.
 
-But wait, you may ask, how will I possibly make a fire without access to stone for a furnace to get charcoal or without a crafting table to make 3x3 recipes?
+This is not your dad's Minecraft. Drop your expectations of how to play Minecraft and experience a new world with different rules. There are no creepers here, nor zombies or diamond tools. This is Pleistocene: a vast, frozen land ripe with possibility. Will you dare to hunt giant woolly mammoths? Will you build a fortress of mud bricks using nothing but the earth and grass? Will you appease the spirits with gracious offerings and harness their power? Or will you freeze to death, becoming preserved for the study of future generations? 
 
-Luckily, the campfire recipe has been rewritten with realism in mind. Get two sticks and two logs. Now you can make a campfire. Don't forget to make a hand drill firestarter to light it. Now you can cook your food and even make bricks for your base or furnace.
+## Getting Started 
+
+The mod comes with a complete Advancement tab that details all the changes and progression. If you want to play it in a spoiler-free environment, stop reading and start playing here! There are hidden advancements to look out for, too. 
+
+The basic necessities are: 
+
+* Flint
+* Chopping block 
+* Sticks
+* Campfire
+
+**First Steps** 
+
+No more punching trees to get wood. You'll need to acquire flint and craft a hand axe. Then, chop some trees. Craft the chopping block using one log. Then, place the chopping block. Put some logs in your off-hand and your axe in your main hand, and chop away! You'll be crafting in no time. 
+
+To get a campfire, combine two logs and two sticks in your crafting menu, place it, then light it the old-fashioned way: with just two sticks!
 
 ## New Items
-Animals with fur now drop a fur pelt. It must be processed before it can be made useful; however, once processed, a world of possibilities opens up. Keep yourself warm using fur armor and make a comfortable bed so you can live your nomadic life in peace.
+
+New drops have been added to animals: 
+
+* Fur 
+* Bone
+* Raw hide 
+
+Animals with fur may now drop a fur pelt. It must be processed before it can be made useful; however, once processed, a world of possibilities opens up. Keep yourself warm using fur armor and make a comfortable bed so you can live your nomadic life in peace. 
 
 Most creatures will also drop bones. Bones can be crafted into many things, some of which can be imbued with the power of the spirits.
 
-## New Blocks
-You will be using a ton of flint, so store all that flint in the flint pile. Make a 3x3 grid of flint to craft it. Decrafting the flint pile returns the 9 flint.
+Raw hide drops from furless animals and is processed into leather using the drying rack. 
 
-There are also new crafting stations.
+For late game apparel, you'll want to make amethyst silk: a luxurious fabric made from fine amethyst and string. 
+
+## New Blocks
+
+You will be using a ton of flint, so store all that flint in the flint pile. Make a 2x2 grid of flint to craft it. Decrafting the flint pile returns the 4 flint. 
+
+There are also new crafting stations. 
 
 * Chopping block
-* Drying rack
-* Altar
+* Drying rack 
+* Altar 
 
-New decorative blocks include wattle and daub, as well as an easier way to make mud bricks.
+## Reworked Progression 
 
-## Reworked Progression
-With new tools, armors, crafting stations, and mechanics, progression is more immersive and rewarding than ever before.
+With new tools, armors, crafting stations, and mechanics, progression is more immersive and rewarding than ever before. 
 
 ### Tools
-Wooden pickaxe? Diamond tools? Netherite? That doesn't fit the vision of a Pleistocene lifestyle, so they've been disabled.
 
-**1: Hand tools**
+Wooden pickaxe? Metal processing? Diamond tools? Netherite? That doesn't fit the vision of a Pleistocene lifestyle, so they've been disabled. 
 
-Hand tools can be crafted in the 2x2 menu using raw flint and are very weak. The wooden pickaxe and axe have been removed.
+**1: Wood and Hand tools**
 
-**2: Flint tools**
+Hand tools can be crafted in the 2x2 menu using raw flint and are very weak. 
 
-First, take one raw flint and knap it to receive 3 pieces of sharpened flint, which can be used to craft stronger, sharper tools.
+**2: Flint tools** 
+
+Flint tools must be "knapped" using a rock. Take one raw flint and a rock. Craft them together to receive 3 pieces of sharpened flint, which can be used to craft stronger, sharper tools.  
 
 **3: Bone tools**
 
-Knap some bone in your crafting menu to receive a special sharpened bone. Then craft the bone tools. 
+Like sharpened flint, bone must be knapped using a rock in the crafting menu.  
 
-**4: Carved bone tools**
+**4: Imbued bone tools** 
 
-The spirits may bless your tools if you give them an offering of their favored gemstone. 
+Make a powerful enough offering to a particular spirit, and it may decide to bless your tools, strengthening it beyond its natural abilities.
 
-**5: Obsidian tools**
+**5: Obsidian tools** 
 
-Obsidian is a rare, ultra-durable material that can be found deep within caves where only the bravest and most prepared nomads dare to traverse.
+Obsidian is a rare, ultra-durable material that can be found deep within caves where only the bravest and most prepared nomads dare to traverse. 
 
 ### Armor
 
 Keep yourself warm in the cold and safe during hunts with all-new armor.
 
-**1: Rawhide Armor**
+**1: Rawhide Armor** 
 
-Can this stuff even be called "armor"?
-
-Take some unprepared skins, grass, and maybe a bone or two and fashion yourself a loincloth, a decorative mask, and some sandals. These don't provide much protection, but it's better than going commando!
+The most basic armor set can be crafted using raw animal hides, grass-woven twine, and bone. You will be hunting, so don't waste any part of the animal that gave its life to sustain you. 
 
 **2: Leather Armor**
 
-You will be hunting, so don't waste any part of the animal that gave its life to sustain you.
+Leather is no longer the most basic set of armor. Great skill goes into crafting leather, and you will need to replicate that here. 
 
-First, get some raw hides from certain furless animals, like auruchs. Then, stretch the raw hide on the drying rack. After some time, you'll recieve leather. Using the leather, you can make your leather armor like normal.
+First, get some raw hides from any furless animals, like cows or pigs. Then, stretch the rawhide on the drying rack. After some time, you'll receive leather. Using the leather, you can make your leather armor like normal.
 
-**3: Fur Armor**
+**3: Fur Armor** 
 
-This set of fur armor could carry you all the way into the end game, if you are careful. It's warm and fluffy. With the right imbuements, it may even be the most powerful set of armor in the game.
+This set of fur armor could carry you all the way into the end game, if you are careful. It's warm and fluffy.  
 
-To craft it, first make a fire. Then, make a kiln with clay or mud bricks. You'll need a bucket of water. Once you have your bucket, break your fire to receive ashes. Mix the ashes with water and the resulting solution can be used to prepare the furs for crafting.
+To craft it, you'll need a bucket of water, which can be made with clay. Once you have your bucket, break your campfire to receive ashes. Mix the ashes with water and the resulting solution can be used to prepare the furs for crafting.
 
-**4: Imbued Bone Armor**
+**4: Imbued Bone Armor** 
 
-Imbued bones can be used to make a unique armor set.
+Imbued bones can be used to make an unpredictive armor set. 
 
-**5: Obsidian Armor**
+**5: Obsidian Armor** 
 
-The ultimate symbol of power.
+The ultimate symbol of power. 
 
 ### Crafting
 
-The crafting progression system involves making new, more difficult crafting mechanisms to make more powerful equipment, both tools and armor. Reworked or completely new crafting stations include:
+The crafting progression system is more immersive than ever before! Reworked or completely new crafting stations include: 
 
 * Campfire
 * Drying rack
 * Chopping block
 
-**Campfire**
+**Campfire** 
 
-The campfire is the most important and basic crafting station. Not only can you cook food at the campfire, but you can slowly bake bricks with mud or clay which can be used to make various objects.
+The campfire is the most important and basic crafting station. Not only can you cook food at the campfire, but you can slowly bake bricks with mud or clay which can be used to make various objects. 
 
 **Drying Rack**
 
-The drying rack is used to make leather, which is used for armor and advanced tools. The drying rack can also be used to turn raw meat into jerky, which is the only food you can eat without fire cooking.
+The drying rack is used to make leather, which is used for armor and advanced tools. The drying rack can also be used to turn raw meat into jerky, which is the only food you can eat without fire cooking. 
 
-**Chopping Block**
+**Chopping Block** 
 
 The chopping block is now the only way to get wood planks. You will need a chopping block before you can make a crafting table.
 
-**Kiln**
+**Furnace** 
 
-Made using bricks of mud or clay, the kiln is used to bake raw clay formed items into ceramics, such as the flower pot, storage pot, or bucket.
+The furnace must now be made using regular stone, not cobblestone. 
 
-It can also turn logs into charcoal.
+**Crafting Station** 
 
-**Furnace**
-
-The furnace must now be made using regular stone, not cobblestone.
-
-**Crafting Station**
-
-The crafting station has stayed largely the same, but remember, the only way to obtain planks is with the chopping block.
+The crafting station has stayed largely the same, but remember, the only way to obtain planks is with the chopping block. 
 
 ## New Mechanics
 
-In the ancient world, every creature had a spirit and spirits were everywhere. Some were benevelont, some were hostile, but most were quite neutral.
+In the ancient world, every creature had a spirit and spirits were everywhere. Some were benevolent, some were hostile, but most were quite neutral. 
 
-Spirits can be appeased with ritual offerings. If your offering impresses a spirit, it may give you special powers or protect you from malicious creatures.
+Spirits can be appeased with ritual offerings. If your offering impresses a spirit, it may give you special powers. 
 
-**Altar**
+**Altar** 
 
-The altar is crafted from the finest natural materials. Present a precious item and see what you receive. If you present an undesired item, you may receive a curse instead...
+The altar is crafted with the finest stripped logs. Present a precious item and see what you receive. If you present an undesired item, you may receive a curse instead... 
 
+## Altered World Generation 
 
-## Altered World Generation
+Explore a hostile land of vast ice sheets and bitter cold. Warm regions are now very rare, with a less than 1% chance of spawning. 
 
-Explore a hostile land of vast ice sheets and bitter cold. Warm regions are now very rare, with a less than 1% chance of spawning Badlands.
+Given that this mod contains a whole new world generation instruction set, you must start a new world to see it in effect. 
 
-## New Mobs
+## New Mobs 
 
-It wouldn't be the Pleistocene era without ancient animals. The following new mobs have been added:
+It wouldn't be the Pleistocene era without ancient animals. The following new mobs have been added: 
 
 * Woolly mammoth
 
-The following mobs are planned and in development for a future update:
-
-* Woolly rhino
-* Cave bear
-* Sabertooth tiger
-
-Hostile entities include:
-
-* Vengeful Spirit
-* And more...
-
-The following mobs have been completely disabled:
+The following vanilla mobs have been completely disabled by default, but this can be turned off via the config: 
 
 * Creeper
 * Warden
 * Zombie (and all variants)
 * Skeleton (and all variants)
+* Enderman 
+* Witch, Pillager, etc.
 
-Additionally, Villagers and Pillagers have been changed to Neanderthals.
+## Mod Integration 
 
-## Mod Integration
+*Pleistocene* works best with other mods. The following mods are optional but highly recommended for the ultimate playthrough: 
 
-*Pleistocene* works best with other mods. The following mods are optional but highly recommended for the ultimate playthrough:
-
-* Clayworks
+* This Rocks!
+* Colorful Allays 
+* Brick furnace 
 * Farmer's Delight
-* Various temperature mods (choose only one)
-    * Survive
-    * Homeostatic
-    * Tough as Nails
-* And more...
+* Homeostatic
+* Serene Seasons
+* Clayworks
 
 ## Notes
 
-This mod would not have been possible without the modding community, especially the tutorials by KaupenJoe and the developers of Neoforge.
+**Dependencies** 
 
+This mod has the following dependencies: 
+
+* Geckolib 
+* Ceramic Bucket
+
+They must be downloaded before running Pleistocene. 
+
+**Texture Pack**
+
+This mod also requires a texture pack. Place it highest in the load order, especially if you are using other texture packs. 
+
+**Translations** 
+
+* EN-US: LyleSnake
+* ES-CL: LyleSnake 
+
+Please feel free to translate this mod. If you do, get in touch so I can add it to the build and give you credit! 
+
+**Installation** 
+
+The mod should be installed on both the server and client for multi-player. 
+
+## Looking Forward 
+
+The following features are currently in development and planned for a future release: 
+
+### Weapons and Tools 
+
+* Spears (coming to the 1.21.11 update)
+* Knives 
+* Scraper 
+* Arrows
+* Fishing gear
+
+### Entities 
+
+* Woolly rhino
+* Cave bear
+* Sabertooth tiger 
+
+### Crafting
+
+* Knapping station 
+* Druidic rituals 
+
+### Pleistocene's Delight: A Farmer's Delight Addon 
+
+* New dishes 
+* New meats
+* New wild berries, fruits, and veggies to encounter 
+
+### Sleep
+
+* Traveling furs 
